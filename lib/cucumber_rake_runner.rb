@@ -5,6 +5,7 @@ require "cucumber_rake_runner/rake_runner"
 require 'rake'
 require 'ostruct'
 require 'benchmark'
+require 'cucumber'
 
 module CucumberRakeRunner
 
