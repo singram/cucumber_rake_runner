@@ -4,9 +4,11 @@ Cucumber helper to run rake tasks in the current process, capturing properties t
 
 ## Installation
 
+### Step 1
+
 Add this line to your application's Gemfile:
 
-    gem 'cucumber_rake_runner'
+    gem 'cucumber_rake_runner', require; false
 
 And then execute:
 
@@ -15,6 +17,12 @@ And then execute:
 Or install it yourself as:
 
     $ gem install cucumber_rake_runner
+
+### Step 2
+
+Add the following line to your cucumber environment file typically found at `features\support\env.rb`
+
+    require 'cucumber_rake_runner'
 
 ## Problem
 
