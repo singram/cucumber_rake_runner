@@ -8,7 +8,7 @@ Cucumber helper to run rake tasks in the current process, capturing properties t
 
 Add this line to your application's Gemfile:
 
-    gem 'cucumber_rake_runner', require; false
+    gem 'cucumber_rake_runner', require: false
 
 And then execute:
 
