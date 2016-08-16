@@ -56,6 +56,12 @@ See the features and step definitions in this gem for example usage.
 
 ## Contributing
 
+Tests can be run via
+
+  cucumber
+
+There are rake task definitions that the tests depend on.  Please feel free to expand.
+
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
