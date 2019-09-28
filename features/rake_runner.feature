@@ -7,6 +7,10 @@ Scenario: Testing the capture of STDOUT
   When I run the rake task 'cucumber_rake_runner:stdout_test'
   Then the contents of STDOUT should contain 'String expected to be sent to STDOUT'
 
+Scenario: Testing the capture of STDERR
+  When I run the rake task 'cucumber_rake_runner:stderr_test'
+  Then the contents of STDOUT should contain 'String expected to be sent to STDERR'
+
 Scenario: Testing the capture of timing with default duration of 1 second
   When I run the rake task 'cucumber_rake_runner:time_test'
   Then the task should have taken '1' seconds
